@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_shape"
+    android:divider="@drawable/dividing_line"
+    android:dividerHeight="10dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/list_item_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/list_item_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/list_item_subject"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="5dp"
+            android:gravity="right"
+            android:textColor="#888888"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_header" >
+
+        <TextView
+            android:id="@+id/list_item_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="top"
+            android:layout_marginLeft="40dp"
+            android:gravity="right"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/list_item_values"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/list_item_info"
+            android:gravity="left"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <!-- AND THIS IS HOW YOU COMMENT IN XML!
+        <ImageButton
+            android:id="@+id/button_edit"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/list_item_num"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/edit_button_description"
+            android:scaleType="fitCenter"
+            android:src="@drawable/editing_icon" 
+            android:alpha=".5"/> 
+        -->
+
+        <TextView
+            android:id="@+id/list_item_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="17dp"
+            android:textSize="30sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

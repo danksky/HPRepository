@@ -1,0 +1,175 @@
+<resources>
+
+    <string name="app_name">Homework Prioritizer</string>
+    <string name="welcome_to_your">Welcome to your</string>
+    <string name="intro_title">Homework Prioritizer</string>
+    <string name="beta">β</string>
+    <string name="question_mark">\?</string>
+    <string name="button_get_started">Get started</string>
+    <string name="button_send">Done</string>
+    <string name="button_about_page">About the App</string>
+    <string name="button_back_to_home">Back to Home</string>
+    <string name="button_to_home">To Home</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="about_item">About</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="difficulty_indicator">Difficulty</string>
+    <string name="edit_title_hint">Title</string>
+    <string name="edit_difficulty_hint">1&#8211;10</string>
+    <string name="edit_days_hint">Include today</string>
+    <string name="edit_grade_hint">0&#8211;100</string>
+    <string name="subject_dialog_title_create">Add Subject</string>
+    <string name="assignment_dialog_title_create">Add Assignment</string>
+    <string name="edit_subject_dialog_title">Edit Subject</string>
+    <string name="edit_assignment_dialog_title">Edit Assignment</string>
+    <string name="edit_subject_hint">Subject Name</string>
+    <string name="edit_subject_grade_text">Grade</string>
+    <string name="edit_subject_name_text">Subject Name</string>
+    <string name="AItitle1">Assignment Input</string>
+    <string name="AItitle2">Assignment Title</string>
+    <string name="AItitle3">Grade in Class</string>
+    <string name="AItitle4">Days until Due</string>
+    <string name="AItitle5">Assignment Type</string>
+    <string name="AItitle6">Difficulty</string>
+    <string name="AItitle7">Assignment Organizer</string>
+    <string name="title_activity_display_assignments">Assignment Organizer</string>
+    <string name="title_activity_display_shit">DisplayShit</string>
+    <string name="title_activity_about_page">AboutPage</string>
+    <string name="title_activity_introduction">IntroductionActivity</string>
+    <string name="cheese">Cheese, for now.</string>
+    <string name="new_entry">New Entry</string>
+    <string name="clear_entries">Clear All</string>
+    <string name="button_skip_to_list">Skip</string>
+    <string name="about_page_paragraph">Created by two high-achieving students, the homework prioritizer 
+        seeks to make your studying as easy as possible. This app will change the way 
+        you do homework by keeping you organized and guiding your study habits. Paired 
+        with a good work ethic, this program is guaranteed to help you keep track of all 
+        that homework, score higher on tests, and become the student you\'ve always wanted 
+        to be. 
+        \n\nAlthough this app is great and can help any student improve their grades, 
+        we are always open to constructive criticism and would love to hear how we can 
+        improve our app. If you have any questions, suggestions, please email us at 
+        HomeworkPrioritizer@gmail.com.
+		\n\n\nAbout the Creators:\nWe are two high school students from Dallas, TX just getting into app-design and 
+		programming. This is our first initiative. Although we have taken classes at our 
+		respective schools, most of this is done in our free time with information we’ve 
+		learned from the Internet. This particular project was created to help out with 
+		the often stressful volume of work we and our peers get. The hope is that it will
+		alleviate some of the difficulties associated with being a well-rounded student. 
+		In the future, we will look to move on to bigger and more innovative apps that 
+		help people out in their daily lives.</string>
+    <string name="edit_button_description">This button is created from a drawable that displays a pencil edit 
+        icon and will bring the user to the input screen with values of the item selected already input.</string>
+    <string name="input_help">This is your assignment input screen. Simply enter the assignment information 
+        into the fields (don\'t forget the dropdowns!) and the algorithm will take care of the rest.</string>
+    <string name="display_help">This is your assignment organizer screen. Your assignments are arranged from the 
+        highest priority to the least. Use this organizer as a guideline for maximum efficiency of time and grade 
+        management.</string>
+
+    <string-array name="homework_array">
+        <item>Type?</item>
+        <item>Exam</item>
+        <item>Essay</item>
+        <item>Test</item>
+        <item>Project</item>
+        <item>Quiz</item>
+        <item>Homework</item>
+        <item>Reading</item>
+    </string-array>
+    <string-array name="create_new">
+        <item>Assignment Class?</item>
+        <item>New class+</item>
+    </string-array>
+
+
+
+    <!--Pretest strings  -->
+
+
+    <string name="pretest">Pretest</string>
+
+
+    <!--  //Corresponding with "Which of the following describes your work ethic?" -->
+    <string name="Q1text">Which of the following describes your work ethic?</string>
+
+    <string name="Q1A1">Early-bird</string>
+    <string name="Q1A2">Organized</string>
+    <string name="Q1A3">Procrastinator</string>
+    <string name="Q1A4">Last-minuter</string>
+
+
+
+    <!--  //Corresponding with "When do you complete your assignments?"-->
+    <string name="Q2text">When do you complete your assignments?</string>
+
+    <string name="Q2A1">Several days ahead of time</string>
+    <string name="Q2A2">A day or two before</string>
+    <string name="Q2A3">The night before</string>
+    <string name="Q2A4">The due date</string>
+
+
+
+    <!-- Corresponding with "When working on a group project, which of the following people are you?"-->
+    <string name="Q3text">When working in a group, which role do you play?</string>
+
+    <string name="Q3A1">The person who completes most of the project</string>
+    <string name="Q3A2">The person who does their part and a bit extra</string>
+    <string name="Q3A3">The person who does the minimum requirement</string>
+    <string name="Q3A4">The person who forgets about the project entirely</string>
+
+
+    <!-- Button to to send on to Main activity -->
+    <string name="buttonToMain">Finish</string>
+
+    <!--  Pretest strings -->
+
+
+
+    <color name="navy">#000080</color>
+    <color name="AppBlue">#2800AEF5</color>
+    <color name="ClickedBlue">#4000AEF5</color>
+    <color name="AppGreen">#4D00FF00</color>
+    <color name="WhiteTranslucent">#DDFFFFFF</color>
+    <color name="DefaultGray">#10000000</color>
+    <string name="title_activity_pretest">Pretest</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_assignment_input">AssignmentInputActivity</string>
+    <string name="title_activity_subject_manager">SubjectManagerActivity</string>
+    <string name="title_activity_navigator">NavigatorActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+
+    <!-- Android Developer Navigation Drawer Tutorial Values -->
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+
+    <string name="group_position_key">groupPosKey</string>
+    <string name="child_position_key">childPosKey</string>
+    <string name="si_array_index_key">arrayIdxKey</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swipe from left, and eventually this \nframe will hold fragments that change depending on which checkboxes are selected"
+            android:id="@+id/tv_commentary_behind_nav"
+            android:layout_gravity="center_horizontal|top" />
+    </FrameLayout>
+    <!-- The navigation drawer -->
+
+    <ExpandableListView
+        android:id="@+id/left_drawer2"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:dividerHeight="0dp"
+        android:background="@color/white"
+        />
+
+</android.support.v4.widget.DrawerLayout>

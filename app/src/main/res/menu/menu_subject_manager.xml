@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.skylan.homeworkpro.SubjectManagerFragment">
+    <item android:id="@+id/action_edit"
+        android:icon="@drawable/ic_edit_white_48dp"
+        android:title="@string/action_websearch"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_archive"
+        android:icon="@drawable/ic_archive_white_48dp"
+        android:title="@string/action_websearch"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_select_all"
+        android:icon="@drawable/ic_select_all_white_48dp"
+        android:title="@string/action_websearch"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_share"
+        android:icon="@drawable/ic_share_white_48dp"
+        android:title="@string/action_websearch"
+        app:showAsAction="always" />
+</menu>
